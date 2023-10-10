@@ -5,7 +5,7 @@ let char = '';
 	while(i<str.length()-1){
 		char = str.charAt(i);
 		var s = str.subString(i+1,str.length+1);
-		if(!s.contains(char)){
+		if(!s.contains(char){
 			return char;
 		}
 		return null;
